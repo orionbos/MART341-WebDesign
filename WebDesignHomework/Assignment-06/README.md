@@ -1,7 +1,0 @@
-I am choosing to continue working on my first website option from last week: Art Portfolio/Artist Website. As an artist, having a website is extremely important and having complete control over is appealing to me. I have used Squarespace for a while now and it has worked great so far but to build it myself and be able to design it exactly how I want seems even better. I intend to create a professional, modern, clean, balanced style for the site. As it is a site functioning as a portfolio of images, there will be very minimal text other than for titling images or labels for navigation. This concerns me as I am looking at the Assignment parameters in Canvas. I am unsure how to use each of the Markup elements such as paragraphs, quotes, lists, because the meat will be photos.
-
-Reflection
-I applied balance to the site as best I could. It is hard imagining how these inputs will output the info I am intending having never done it before. It's not exactly as I imagined but it's a start. 
-I'm not quite sure how to see my final design...
-I did use float margins for images in the portfolio section. It seems easy enough but I will have to play around with it to get the hang of it. I removed them though because I didn't know how to fix their size when they are in float mode. 
-One challenge I had was my previous knowledge of designing my website on Squarespace and mentally trying to replicate that. I ended up realizing that I will be able to do so later on in this course and that, right now, I just need to practice these basic tasks and elements. 
