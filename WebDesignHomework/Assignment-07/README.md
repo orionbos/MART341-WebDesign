@@ -1,2 +1,4 @@
-<h1> This is my readme. </h1>
-## Anything   
+<h1>Reflection</h1>
+<p> What I am most proud of in this project was setting up the navigation bar with drop down menus that take you to the other pages. It was very frustrating but fun to do. I had to go to outside source to figure out how to do it but doing so also helped me to understand other parts of the code. I think having a navigation bar and the drop down menus really simplifies the initial vibe of the site. It doesn't overload you with visual links or clicks.</p>
+<p> Another part I really like is being able to import a PDF file and having that be opened when the link is clicked. This will allow me to edit it in its original program which is easier than coding and styling the whole thing whenever I need to update it.</p>
+<p>One thing I wasn't able to figure out is how to float a logo in this center of the navigation bar that links back to the landing page. I really struggled to get things centered with images and text because I think when using the text-align function, it aligns not to the center of the actual page but to something else.</p>
