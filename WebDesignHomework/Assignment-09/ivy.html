@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="description" content="Website containing artist portfolio, contact information">
+        <meta name="author" content="Orion Bos">
+        <meta name="keywords" content="plants, weeds, invasive species, plant, ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEEDS</title>
+        <style>
+    
+        .topnav {
+            overflow: hidden;
+            background-color: none;
+            font-family: Georgia;
+            text-align: center;
+          }
+    
+          .topnav a {
+            float: left;
+            font-size: 16px;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+    
+          .topnav .icon {
+            display: none;
+          }
+    
+          .dropdown {
+            float: right;
+            overflow: hidden;
+            color: black;
+          }
+    
+          .dropdown .dropbtn {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: black;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: Georgia;
+            margin: 0;
+          }
+    
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+          }
+    
+          .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+    
+          .topnav a:hover,
+          .dropdown:hover .dropbtn {
+            background-color: whitesmoke;
+          }
+    
+          .dropdown-content a:hover {
+            background-color: rgb(163, 163, 163);
+          }
+    
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+    
+          @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child),
+            .dropdown .dropbtn {
+              display: none;
+            }
+            .topnav a.icon {
+              float: right;
+              display: block;
+            } 
+          }
+    
+          @media screen and (max-width: 600px) {
+            .topnav.responsive {
+              position: relative;
+            }
+            .topnav.responsive .icon {
+              position: absolute;
+              right: 0;
+              top: 0;
+            }
+            .topnav.responsive a {
+              float: none;
+              display: block;
+              text-align: left;
+            }
+            .topnav.responsive .dropdown {
+              float: none;
+            }
+            .topnav.responsive .dropdown-content {
+              position: relative;
+            }
+            .topnav.responsive .dropdown .dropbtn {
+              display: block;
+              width: 100%;
+              text-align: left;
+            }
+          }                       
+    body {background-color: #ffffff; font-family: Georgia sans-serif;}
+    h1, h2, h3, h4 {color:black; font-family: Georgia sans-serif;}               
+
+            ul {
+              background-color: rgb(255, 255, 255);
+              color: black;
+              text-align: center;
+              padding: 10px;
+            }
+            li {
+              display: inline;
+              padding: 5px;
+              color: black;
+            }
+            body {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: black;
+            }
+            .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+          </style>
+    </head>
+
+    <body>
+<!--NEW BAR-->
+<div>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">HOME</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+        IDENTIFICATION
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="invasive.html">Invasive Plants</a>
+        <a href="noxious.html">Noxious Plants</a>
+        <a href="native.html">Native Plants</a>
+        <a href="howto.html">How to Identify a Weed</a>
+      </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">
+         RESOURCES
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="resources1.html">Philosophies</a>
+          <a href="resources2.html">What To Do?</a>
+          <a href="resources3.html">Tools</a>
+        </div>
+    </div>
+    <div class="dropdown">
+          <a href="about.html" class="active">ABOUT</a>
+          
+    </div>
+
+    <div style="display: inline-block; text-align: center;">
+        <img src="Images/PNG/Ivy.png" alt="image of ivy" title="ivy" style="width: 20%;">
+    </div>
+</div>
+<br />
+<h1 style="margin-left: auto; margin-right: auto; text-align: center;">English Ivy</h1> 
+<p style="text-align: center;"> English ivy (Hedera helix) is a perennial, evergreen vine with the following characteristics:</p>
+<ul style="text-align: left; margin-left: 20%; margin-right: 20%;" >
+    <li><b>Leaves</b></li>
+    <p style="color: gray;">Dark green, waxy, and leathery with white veins. Leaves can be lobed or unlobed, and vary in size and shape. Juvenile leaves are deeply lobed, while adult leaves are more egg-shaped or diamond-shaped. </p>
+    <li><b>Stems</b></li>
+    <p style="color: gray;">Long, woody stems that can climb trees, fences, walls, and hillsides. Young stems are hairy, while older stems are hairless. </p>
+    <li><b>Flowers</b></li>
+    <p style="color: gray;">Small, greenish-white flowers that bloom in umbrella-like clusters in late summer or early fall. </p>
+    <li><b>Fruit</b></li>
+   <p style="color: gray;">Dark purple-black berries that appear in late winter or early spring. The berries contain glycosides that may be mildly toxic to some birds. </p>
+    <li><b>Roots</b></li>
+    <p style="color: gray;">Climbing stems produce root-like structures that attach to surfaces. Vines that trail along the ground can develop adventitious roots. </p>
+    <li><b>Growth</b></li>
+    <p style="color: gray;">English ivy can grow as a vine or a shrubby-stemmed plant. It can grow up to 100 feet tall.</p>
+</ul>
+    <p style="text-align: justify; margin-left: 20%; margin-right: 20%;">English ivy can be confused with other plants, including: Irish ivy &#40;Hedera hibernica&#41;, Persian ivy &#40;Hedera colchica&#41;, Boston ivy &#40;Parthenocissus tricuspidata&#41;, Virginia creeper &#40;Parthenocissus quinquefolia&#41;, and Poison ivy &#40;Toxicodendron radicans&#41;.</p>
+<br />
+<hr />
+<br />
+<h3 style="margin-left: auto; margin-right: auto; text-align: center;">Image Identification</h3>
+<br />
+<div style="text-align: center;" class="row">
+    <div class="column">
+      <img style="width: 20%;" src="Images/JPEG/Ivy1.jpg">
+      <img style="width: 20%;" src="Images/JPEG/Ivy2.jpeg">
+      <img style="width: 20%;" src="Images/JPEG/Ivy3.jpeg">
+      <img style="width: 20%;" src="Images/JPEG/Ivy4.jpeg">
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+</body>
+</html>
